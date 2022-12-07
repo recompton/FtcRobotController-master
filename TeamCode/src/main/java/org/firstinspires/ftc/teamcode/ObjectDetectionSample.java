@@ -188,7 +188,6 @@ public class ObjectDetectionSample extends LinearOpMode {
         //  Instantiate the Vuforia engine
         vuforia = ClassFactory.getInstance().createVuforia(parameters);
     }
-
     /**
      * Initialize the TensorFlow Object Detection engine.
      */
